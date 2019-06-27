@@ -32,18 +32,16 @@ public class Main extends Application {
         primaryStage.setTitle("Laplace & Inverse Laplace Transform");
         primaryStage.show();
         laplace.setOnMouseClicked(event -> {
-            primaryStage.setTitle("Laplace Transform");
-            primaryStage.setHeight(1000);
+            primaryStage.setHeight(760);
             primaryStage.setWidth(940);
-            primaryStage.setY(5);
+            primaryStage.setY(50);
             primaryStage.setX(primaryStage.getX() - 112);
             LaplaceCalc.initialize(root);
         });
         laplaceInverse.setOnMouseClicked(event -> {
-            primaryStage.setTitle("Inverse Laplace Transform");
-            primaryStage.setHeight(1000);
+            primaryStage.setHeight(760);
             primaryStage.setWidth(940);
-            primaryStage.setY(5);
+            primaryStage.setY(50);
             primaryStage.setX(primaryStage.getX() - 112);
             LaplaceInvCalc.initialize(root);
         });

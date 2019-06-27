@@ -31,7 +31,7 @@ public class LaplaceCalc {
         root.getChildren().add(vBox);
         grid.setAlignment(Pos.CENTER);
         grid.setHgap(10);
-        grid.setVgap(10);
+        grid.setVgap(12);
         Label f = labelMaker("f(t)");
         Label F = labelMaker("F(s)");
         Label a = labelMaker("a");
@@ -163,12 +163,12 @@ public class LaplaceCalc {
         GridPane.setHalignment(y, HPos.CENTER);
     }
 
-    private static void answer(String a, String b, Label etAx, Label etAy) {
+    public static void answer(String a, String b, Label etAx, Label etAy) {
         etAx.setText(b);
         etAy.setText(a);
     }
 
-    private static Label labelMaker(String text) {
+    public static Label labelMaker(String text) {
         Label label = new Label(text);
         label.setAlignment(Pos.CENTER);
         label.setPadding(new Insets(10));
