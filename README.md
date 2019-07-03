@@ -1,2 +1,2 @@
-# Laplace-Transform-Table---DE-Project
-Final Project of Differential Equations 
+# Laplace-Transform-Table
+A Simple Table Of Laplace 
